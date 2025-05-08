@@ -1,0 +1,40 @@
+# Node.js
+**/node_modules/
+**/dist/
+**/build/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Env files
+*.env
+*.env.*
+
+# Editor settings
+.vscode/
+.idea/
+*.swp
+
+# Dependency lock for optional package managers
+pnpm-lock.yaml
+yarn.lock
+
+# TypeScript
+**/*.tsbuildinfo
+
+# Output from testing frameworks
+coverage/
+
+# Next.js or similar (если используешь)
+.next/
+out/
+
+# Other
+*.local
